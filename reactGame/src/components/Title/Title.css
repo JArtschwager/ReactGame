@@ -1,0 +1,14 @@
+.title {
+  width: 100%;
+  text-align: right;
+  font-size: 3rem;
+  text-decoration: bold;
+  color: rgb(3, 52, 53);
+  margin-bottom: 50px;
+  padding-top: 20px;
+}
+
+h1 {
+  font-size: 100px;
+  
+}

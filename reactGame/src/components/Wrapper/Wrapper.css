@@ -1,0 +1,15 @@
+.wrapper {
+  padding-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+  background: url('/images/box.jpg');
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10px;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+
+}

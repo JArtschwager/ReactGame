@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "tort",
+    "image": "/images/tort.png"
+   
+  },
+  {
+    "id": 2,
+    "name": "black",
+    "image": "/images/black.png"
+
+  },
+  {
+    "id": 3,
+    "name": "calico",
+    "image": "/images/calico.png"
+    
+  },
+  {
+    "id": 4,
+    "name": "gray",
+    "image": "/images/gray.png"
+
+  },
+  {
+    "id": 5,
+    "name": "gray open",
+    "image": "/images/grayopen.png"
+   
+  },
+  {
+    "id": 6,
+    "name": "orange",
+    "image": "images/orange.png"
+
+  },
+  {
+    "id": 7,
+    "name": "tortie",
+    "image": "/images/tortie.png"
+  
+  },
+  {
+    "id": 8,
+    "name": "white",
+    "image": "/images/white.png"
+   
+  },
+  {
+    "id": 9,
+    "name": "calico open",
+    "image": "/images/caliopen.png"
+   
+  },
+  {
+    "id": 10,
+    "name": "orange open",
+    "image": "/images/orangeopen.png"
+   
+  },
+  {
+    "id": 11,
+    "name": "black open",
+    "image": "/images/blackopen.png"
+  
+  },
+  {
+    "id": 12,
+    "name": "white 2",
+    "image": "/images/wht.png"
+  
+  }
+]

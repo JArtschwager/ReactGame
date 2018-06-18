@@ -13,4 +13,3 @@ Compare your score to the top score.
 
 *The top score will only be held during the time the browser is open.*
 
-

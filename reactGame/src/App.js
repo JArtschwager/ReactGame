@@ -22,19 +22,21 @@ class App extends Component {
         console.log("first selection");
         score = score + 1;
         this.setState({score: score});
+        this.setState({message: "Lucky guess, keep going."});
+
 
     } else {
       if (this.state.previousFriend === id) {
-        console.log("you lose, same friend selected");
-        //check agiasnt bestscore
-        //zero out score
+
         score = 0;
         this.setState({score: score});
+        this.setState({message: "You Lose"});
         this.setState({previousFriend: null});
       } else {
-        console.log("keep going");
         score = score + 1;
         this.setState({score: score});
+        this.setState({message: "You guessed correctly, keep going."});
+
       }
     }
     this.setState({previousFriend: id});
@@ -42,7 +44,6 @@ class App extends Component {
     if (score > bestscore) {
       bestscore = score;
       this.setState({bestscore: score});
-
       console.log("new best score!" + bestscore);
     } else {
       console.log(score);
@@ -67,9 +68,9 @@ class App extends Component {
     return (
       <Wrapper>
         <Title>
-        <h1>Cat in a Box</h1>
-        <h3>Do not click the same image twice.</h3>
-        <h3 class="score" class="bestscore">Score: {this.state.score}  Best Score: {this.state.bestscore}</h3>
+        <h1 class="titleline">Cat in a Box</h1>
+        <h3 class="score formattitle" class="bestscore">Score: {this.state.score}  Best Score: {this.state.bestscore}</h3>
+        <p class="message formattitle">{this.state.message}</p>
         </Title>
         
         {this.state.cats.map(friend => (
@@ -88,3 +89,4 @@ class App extends Component {
 
 export default App;
 
+// <h3 class="formattitle">Do not click the same image twice.</h3>

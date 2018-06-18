@@ -1,14 +1,20 @@
-.title {
-  width: 100%;
-  text-align: right;
-  font-size: 3rem;
+
+.titleline {
+  font-size: 40px;
   text-decoration: bold;
-  color: rgb(3, 52, 53);
-  margin-bottom: 50px;
-  padding-top: 20px;
+  text-align: center;
 }
 
-h1 {
-  font-size: 100px;
-  
+.formattitle {
+  width: 100%;
+  text-align: center;
+  text-decoration: bold;
+  color: rgb(3, 52, 53);
+display: flex;
+flex-flow: row wrap;
+padding: 10px;
+justify-content: space-around;
+align-content: flex-start;
+overflow: auto;
+min-height: 60px;
 }

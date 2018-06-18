@@ -2,19 +2,19 @@
   {
     "id": 1,
     "name": "tort",
-    "image": "/images/tort.png"
+    "image": "images/tort.png"
    
   },
   {
     "id": 2,
     "name": "black",
-    "image": "/images/black.png"
+    "image": "images/black.png"
 
   },
   {
     "id": 3,
     "name": "calico",
-    "image": "/images/calico.png"
+    "image": " images/calico.png"
     
   },
   {

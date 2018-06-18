@@ -2,25 +2,24 @@
   {
     "id": 1,
     "name": "tort",
-    "image": "/images/tort.png"
+    "image": "images/tort.png"
    
   },
   {
-    "id": 2,
     "name": "black",
-    "image": "/images/black.png"
+    "image": "images/black.png"
 
   },
   {
     "id": 3,
     "name": "calico",
-    "image": "/images/calico.png"
+    "image": "images/calico.png"
     
   },
   {
     "id": 4,
     "name": "gray",
-    "image": "/images/gray.png"
+    "image": "images/gray.png"
 
   },
   {
@@ -38,37 +37,37 @@
   {
     "id": 7,
     "name": "tortie",
-    "image": "/images/tortie.png"
+    "image": "images/tortie.png"
   
   },
   {
     "id": 8,
     "name": "white",
-    "image": "/images/white.png"
+    "image": "images/white.png"
    
   },
   {
     "id": 9,
     "name": "calico open",
-    "image": "/images/caliopen.png"
+    "image": "images/caliopen.png"
    
   },
   {
     "id": 10,
     "name": "orange open",
-    "image": "/images/orangeopen.png"
+    "image": "images/orangeopen.png"
    
   },
   {
     "id": 11,
     "name": "black open",
-    "image": "/images/blackopen.png"
+    "image": "images/blackopen.png"
   
   },
   {
     "id": 12,
     "name": "white 2",
-    "image": "/images/wht.png"
+    "image": "images/wht.png"
   
   }
 ]
